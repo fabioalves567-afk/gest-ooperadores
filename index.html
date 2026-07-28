@@ -827,6 +827,13 @@ textarea.obs-inp:focus{outline:none;border-color:var(--accent)}
       <div class="card-body" id="saudeLinhaCard"></div>
     </div>
     <div class="card">
+      <div class="card-head"><span class="card-title">🏥 Enfermaria — Foi / Retornou</span></div>
+      <div class="card-body" id="enfermariaCard"></div>
+    </div>
+  </div>
+
+  <div class="dash-grid-2">
+    <div class="card">
       <div class="card-head"><span class="card-title">🤖 Análise Inteligente (automática)</span></div>
       <div class="card-body" id="analiseAutomaticaCard"></div>
     </div>
@@ -1123,7 +1130,7 @@ const MON_STATUS={
 /* ── SMART FLOW BACKUP 2026-05-26 ── */
 const __SF_BKP__={monBase:{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex"},{"id":"momee2xeasqaewh3act","nome":"Edson"}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato"},{"id":"mome9lftg02988irvz","nome":"Claudio"},{"id":"momefw34k58edny4wo9","nome":"Paulinho"}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike"},{"id":"momedflkugtq1ag3ypf","nome":"Matheus"}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato"},{"id":"momea0lqxvl01367bae","nome":"Flavio"}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22"},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09"},{"id":"momegczarngr0q4nsq","nome":"Juliana"}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley"},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9"}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas"},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra"},{"id":"momeb70asbpszzufco","nome":"Borracha"}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara"},{"id":"momefccyxtwfbufvwz","nome":"Leandro"}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder"}]},lideres:{"Mezanino":"Emanuel","Chicotes":"Juliana","Vidros":"Rubens","DressUp":"Operador 01 Dias","Fahrwerk":"Líder Responsável","Para Choque":"Adimilson","Bancos":"Adriano","Door Less":"","MQB":"Emanuel"},sab:{"2026-05-02":"nao","2026-05-09":"nao"},agenda:{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]},metaTurno:429,m:{"2026-05-04":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-05-09":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]},"2026-05-02":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-05-10":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-05-01":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"cobrindo","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"cobrindo","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"cobrindo","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-05-03":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-04-29":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[{"id":"mok1eakvdkwua29gzm7","nome":"Operador 22","status":"cobrindo","obs":""},{"id":"mok1eq28m5nfr6bymxk","nome":"Operador 09","status":"fora","obs":""}],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]},"2026-05-05":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"cobrindo","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"cobrindo","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-05-07":{"Mezanino":[{"id":"mome4cn8ru0qd4d32e","nome":"Alex","status":"fora","obs":""},{"id":"momee2xeasqaewh3act","nome":"Edson","status":"fora","obs":""}],"Chicotes":[{"id":"mome5qm443vsg7ciiuo","nome":"Rubinato","status":"fora","obs":""},{"id":"mome9lftg02988irvz","nome":"Claudio","status":"fora","obs":""},{"id":"momefw34k58edny4wo9","nome":"Paulinho","status":"fora","obs":""}],"Vidros":[{"id":"mome51xa2ngd4t2g0bl","nome":"Kaike","status":"fora","obs":""},{"id":"momedflkugtq1ag3ypf","nome":"Matheus","status":"fora","obs":""}],"DressUp":[{"id":"mome9ufuq3oohi3os7i","nome":"Renato","status":"fora","obs":""},{"id":"momea0lqxvl01367bae","nome":"Flavio","status":"fora","obs":""}],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""},{"id":"momegczarngr0q4nsq","nome":"Juliana","status":"fora","obs":""}],"Para Choque":[{"id":"momeabu2l04idhfbc4","nome":"Wesley","status":"fora","obs":""},{"id":"momeahosv7b91nsowe","nome":"Z\u00e9","status":"fora","obs":""}],"Bancos":[{"id":"momeatuqyfreuy6p5r","nome":"Jonas","status":"fora","obs":""},{"id":"momeaydbzw3sjjkfobl","nome":"Rayra","status":"fora","obs":""},{"id":"momeb70asbpszzufco","nome":"Borracha","status":"fora","obs":""}],"Door Less":[{"id":"momeeibyt6up4ct9qkt","nome":"Maria Clara","status":"fora","obs":""},{"id":"momefccyxtwfbufvwz","nome":"Leandro","status":"fora","obs":""}],"MQB":[{"id":"momec5iuidasdskew3","nome":"Binder","status":"fora","obs":""}]},"2026-04-30":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[{"id":"moky40wmn1hqxxih2mh","nome":"Operador 22","status":"fora","obs":""},{"id":"moky4832j6q8zd5e08d","nome":"Operador 09","status":"fora","obs":""}],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]}},q:{"2026-05-02":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":50,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}},"2026-05-07":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":51,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}},"2026-04-30":{"Mezanino":{"operadores":0,"operacoes":0},"Chicotes":{"operadores":0,"operacoes":0},"Vidros":{"operadores":0,"operacoes":0},"DressUp":{"operadores":0,"operacoes":0},"Fahrwerk":{"operadores":21,"operacoes":20},"Para Choque":{"operadores":19,"operacoes":18},"Bancos":{"operadores":0,"operacoes":0},"Door Less":{"operadores":0,"operacoes":0},"MQB":{"operadores":0,"operacoes":0}},"2026-05-04":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":50,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}},"2026-04-29":{"Mezanino":{"operadores":0,"operacoes":0},"Chicotes":{"operadores":0,"operacoes":0},"Vidros":{"operadores":0,"operacoes":0},"DressUp":{"operadores":0,"operacoes":0},"Fahrwerk":{"operadores":21,"operacoes":20},"Para Choque":{"operadores":19,"operacoes":18},"Bancos":{"operadores":0,"operacoes":0},"Door Less":{"operadores":0,"operacoes":0},"MQB":{"operadores":0,"operacoes":0}},"2026-05-09":{"Mezanino":{"operadores":0,"operacoes":0},"Chicotes":{"operadores":0,"operacoes":0},"Vidros":{"operadores":0,"operacoes":0},"DressUp":{"operadores":0,"operacoes":0},"Fahrwerk":{"operadores":0,"operacoes":0},"Para Choque":{"operadores":0,"operacoes":0},"Bancos":{"operadores":0,"operacoes":0},"Door Less":{"operadores":0,"operacoes":0},"MQB":{"operadores":0,"operacoes":0}},"2026-05-10":{"Mezanino":{"operadores":0,"operacoes":0},"Chicotes":{"operadores":0,"operacoes":0},"Vidros":{"operadores":0,"operacoes":0},"DressUp":{"operadores":0,"operacoes":0},"Fahrwerk":{"operadores":0,"operacoes":0},"Para Choque":{"operadores":0,"operacoes":0},"Bancos":{"operadores":0,"operacoes":0},"Door Less":{"operadores":0,"operacoes":0},"MQB":{"operadores":0,"operacoes":0}},"2026-05-03":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":50,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}},"2026-05-05":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":51,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}},"2026-05-01":{"Mezanino":{"operadores":52,"operacoes":50},"Chicotes":{"operadores":50,"operacoes":50},"Vidros":{"operadores":50,"operacoes":50},"DressUp":{"operadores":50,"operacoes":50},"Fahrwerk":{"operadores":50,"operacoes":50},"Para Choque":{"operadores":50,"operacoes":50},"Bancos":{"operadores":50,"operacoes":50},"Door Less":{"operadores":51,"operacoes":50},"MQB":{"operadores":50,"operacoes":50}}},a:{"2026-04-29":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"mok3duc03k1dfrtmsa7"},{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"mok3e50gtcw5mm55jg"},{"tipo":"falta","inicio":"2026-04-29","fim":"2026-04-29","id":"mok3ei7knadpgzoydt"}],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]},"2026-05-01":{"Mezanino":[],"Chicotes":[{"tipo":"falta","inicio":"2026-05-01","fim":"2026-05-01","id":"momfufsq0u7ekci3ytnl"},{"tipo":"enfermaria","inicio":"2026-05-01","fim":"2026-05-01","id":"monp5sohj8i58o3f43"}],"Vidros":[{"tipo":"bh","inicio":"2026-05-01","fim":"2026-05-01","id":"momftqimao7dnt436d9"}],"DressUp":[{"tipo":"afastamento","inicio":"2026-05-01","fim":"2026-05-08","id":"momfu4vnmsqghjbotg"}],"Fahrwerk":[{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"momfs0sujew33o5dvr8"},{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"momft573mirowysg9j"},{"tipo":"enfermaria","inicio":"2026-05-01","fim":"2026-05-01","id":"monn2cy2eyrb7lafald"},{"tipo":"enfermaria","inicio":"2026-05-01","fim":"2026-05-01","id":"monnbspx0bec3dxjpyyn"}],"Para Choque":[{"tipo":"feria","inicio":"2026-04-30","fim":"2026-05-16","id":"momfrmcpvn1qxstxze"}],"Bancos":[{"tipo":"enfermaria","inicio":"2026-05-01","fim":"2026-05-01","id":"momfvb8pvvsiglj7mf"}],"Door Less":[],"MQB":[]},"2026-04-30":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"mok3duc03k1dfrtmsa7"},{"tipo":"feria","inicio":"2026-04-27","fim":"2026-05-10","id":"mok3e50gtcw5mm55jg"},{"tipo":"falta","inicio":"2026-04-29","fim":"2026-04-29","id":"mok3ei7knadpgzoydt"}],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]},"2026-05-02":{"Mezanino":[],"Chicotes":[],"Vidros":[],"DressUp":[],"Fahrwerk":[],"Para Choque":[],"Bancos":[],"Door Less":[],"MQB":[]}}};
 
-let quadros={}, agenda={}, monitores={}, monBase={}, sabados={}, emprestados={}, lideres={}, enfVoltou={}, atrasados={}, saiuVoltou={}, liberados={}, atestados={}, customCards=[], customCounts={}; // saiuVoltou, liberados, atestados, customCounts: {'SETOR||YYYY-MM-DD': n}
+let quadros={}, agenda={}, monitores={}, monBase={}, sabados={}, emprestados={}, lideres={}, enfVoltou={}, atrasados={}, saiuVoltou={}, liberados={}, atestados={}, customCards=[], customCounts={}, enfTotalFoi={}; // saiuVoltou, liberados, atestados, customCounts, enfTotalFoi: {'SETOR||YYYY-MM-DD': n}
 // monitores  = {setor:[{id,nome,status,obs}]} — status per day (loaded/saved per date)
 // monBase    = {setor:[{id,nome}]}             — permanent roster (names never wiped)
 let pieInst=null,saldoInst=null,monInst=null,prevInst=null,histInst=null;
@@ -1164,6 +1171,8 @@ function empSaldoSetor(s,ds){
 }
 // resultado = saldo - operações + monitores cobrindo + saldo emprestados (recebeu - enviou)
 function enfVoltouQtd(s,ds){ return enfVoltou[s+'||'+ds]||0; }
+function enfTotalFoiQtd(s,ds){ return enfTotalFoi[s+'||'+ds]||0; }
+function enfRetornouQtd(s,ds){ return Math.max(0, enfTotalFoiQtd(s,ds) - enfVoltouQtd(s,ds)); }
 function atrasadoQtd(s,ds){ return atrasados[s+'||'+ds]||0; }
 function saiuVoltouQtd(s,ds){ return saiuVoltou[s+'||'+ds]||0; }
 function liberadoQtd(s,ds){ return liberados[s+'||'+ds]||0; }
@@ -1221,8 +1230,8 @@ function renderSetores(){
 
 function renderAusIconStrip(ds){
   const el=document.getElementById('ausIconStrip'); if(!el) return;
-  let tF=0,tB=0,tA=0,tFalt=0,tEnf=0,tOut=0,tVoltou=0,tAtrd=0,tSaiu=0,tLib=0,tAtst=0;
-  SETORES.forEach(s=>{tF+=ausF(s,ds);tB+=ausB(s,ds);tA+=ausA(s,ds);tFalt+=ausFalt(s,ds);tEnf+=ausEnf(s,ds);tOut+=ausOut(s,ds);tVoltou+=enfVoltouQtd(s,ds);tAtrd+=atrasadoQtd(s,ds);tSaiu+=saiuVoltouQtd(s,ds);tLib+=liberadoQtd(s,ds);tAtst+=atestadoQtd(s,ds);});
+  let tF=0,tB=0,tA=0,tFalt=0,tEnf=0,tOut=0,tVoltou=0,tAtrd=0,tSaiu=0,tLib=0,tAtst=0,tLic=0;
+  SETORES.forEach(s=>{tF+=ausF(s,ds);tB+=ausB(s,ds);tA+=ausA(s,ds);tFalt+=ausFalt(s,ds);tEnf+=ausEnf(s,ds);tOut+=ausOut(s,ds);tVoltou+=enfVoltouQtd(s,ds);tAtrd+=atrasadoQtd(s,ds);tSaiu+=saiuVoltouQtd(s,ds);tLib+=liberadoQtd(s,ds);tAtst+=atestadoQtd(s,ds);tLic+=ausLic(s,ds);});
   tEnf=tEnf+tVoltou; // enfVoltou agora é 'foi para enfermaria', soma ao total de enfer.
   const items=[
     {label:'férias',   val:tF,    color:'#A78BFA', bg:'rgba(167,139,250,.12)'},
@@ -1235,6 +1244,7 @@ function renderAusIconStrip(ds){
     {label:'saiu/volta', val:tSaiu, color:'#7C3AED', bg:'rgba(124,58,237,.12)'},
     {label:'liberação', val:tLib, color:'#0D9488', bg:'rgba(13,148,136,.12)'},
     {label:'atestado', val:tAtst, color:'#DB2777', bg:'rgba(219,39,119,.12)'},
+    {label:'licenças', val:tLic, color:'#C084FC', bg:'rgba(192,132,252,.12)'},
   ];
   const icons=[
     `<svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="12" r="11" fill="${items[0].bg}" stroke="${items[0].color}" stroke-width="1.5"/><path d="M12 6.5C10.62 6.5 9.5 7.62 9.5 9s1.12 2.5 2.5 2.5S14.5 10.38 14.5 9 13.38 6.5 12 6.5zM12 13.5c-2.33 0-7 1.17-7 3.5V18h14v-1c0-2.33-4.67-3.5-7-3.5z" fill="${items[0].color}"/></svg>`,
@@ -1247,6 +1257,7 @@ function renderAusIconStrip(ds){
     `<svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="12" r="11" fill="${items[7].bg}" stroke="${items[7].color}" stroke-width="1.5"/><path d="M13.5 5.5c0 .83-.67 1.5-1.5 1.5S10.5 6.33 10.5 5.5 11.17 4 12 4s1.5.67 1.5 1.5zM12 9c-2.21 0-4 1.79-4 4v5h2v-5c0-.55.22-1.05.59-1.41L12 13l1.41-1.41c.37.36.59.86.59 1.41v5h2v-5c0-2.21-1.79-4-4-4z" fill="${items[7].color}"/></svg>`,
     `<svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="12" r="11" fill="${items[8].bg}" stroke="${items[8].color}" stroke-width="1.5"/><text x="12" y="16" font-size="11" text-anchor="middle">🎓</text></svg>`,
     `<svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="12" r="11" fill="${items[9].bg}" stroke="${items[9].color}" stroke-width="1.5"/><text x="12" y="16" font-size="11" text-anchor="middle">📄</text></svg>`,
+    `<svg viewBox="0 0 24 24" width="36" height="36" fill="none"><circle cx="12" cy="12" r="11" fill="${items[10].bg}" stroke="${items[10].color}" stroke-width="1.5"/><text x="12" y="16" font-size="11" text-anchor="middle">👨‍👩‍👧</text></svg>`,
   ];
   el.innerHTML=items.map((item,i)=>`
     <div style="display:flex;flex-direction:column;align-items:center;gap:5px;min-width:56px">
@@ -1411,12 +1422,12 @@ function renderCards(ds){
           <span style="font-size:18px">🏥</span>
           <div style="display:flex;flex-direction:column;gap:1px;flex:1">
             <span style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:#EF4444">Foi para enfermaria</span>
-            <span style="font-size:10px;color:var(--text3)">desconta do resultado</span>
+            <span style="font-size:10px;color:var(--text3)">+ foi agora · − retornou</span>
           </div>
           <div style="display:flex;align-items:center;gap:6px">
-            <button onclick="setEnfVoltou('${setor}','${ds}',Math.max(0,(enfVoltouQtd('${setor}','${ds}')||0)-1))" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(239,68,68,.4);background:var(--bg3);color:#EF4444;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">−</button>
+            <button onclick="setEnfVoltou('${setor}','${ds}',Math.max(0,(enfVoltouQtd('${setor}','${ds}')||0)-1))" style="height:28px;padding:0 10px;border-radius:14px;border:1px solid rgba(239,68,68,.4);background:var(--bg3);color:#EF4444;font-size:11px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;white-space:nowrap">↩ Retornou</button>
             <span id="enfv-${key}" style="font-size:20px;font-weight:700;font-family:var(--mono);color:#EF4444;min-width:28px;text-align:center">${enfVoltouQtd(setor,ds)}</span>
-            <button onclick="setEnfVoltou('${setor}','${ds}',(enfVoltouQtd('${setor}','${ds}')||0)+1)" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(239,68,68,.4);background:var(--bg3);color:#EF4444;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">+</button>
+            <button onclick="incrementarFoiEnfermaria('${setor}','${ds}')" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(239,68,68,.4);background:var(--bg3);color:#EF4444;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">+</button>
           </div>
         </div>
         <div style="display:flex;align-items:center;gap:10px;padding:8px 12px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.25);border-radius:var(--r-sm)">
@@ -1426,7 +1437,7 @@ function renderCards(ds){
             <span style="font-size:10px;color:var(--text3)">quantos estão a caminho</span>
           </div>
           <div style="display:flex;align-items:center;gap:6px">
-            <button onclick="setAtrasado('${setor}','${ds}',Math.max(0,(atrasadoQtd('${setor}','${ds}')||0)-1))" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(245,158,11,.4);background:var(--bg3);color:#D97706;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">−</button>
+            <button onclick="setAtrasado('${setor}','${ds}',Math.max(0,(atrasadoQtd('${setor}','${ds}')||0)-1))" style="height:28px;padding:0 10px;border-radius:14px;border:1px solid rgba(245,158,11,.4);background:var(--bg3);color:#D97706;font-size:11px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;white-space:nowrap">↩ Chegou no setor</button>
             <span id="atrd-${key}" style="font-size:20px;font-weight:700;font-family:var(--mono);color:#D97706;min-width:28px;text-align:center">${atrasadoQtd(setor,ds)}</span>
             <button onclick="setAtrasado('${setor}','${ds}',(atrasadoQtd('${setor}','${ds}')||0)+1)" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(245,158,11,.4);background:var(--bg3);color:#D97706;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">+</button>
           </div>
@@ -1438,7 +1449,7 @@ function renderCards(ds){
             <span style="font-size:10px;color:var(--text3)">saída temporária, ainda não voltou</span>
           </div>
           <div style="display:flex;align-items:center;gap:6px">
-            <button onclick="setSaiuVoltou('${setor}','${ds}',Math.max(0,(saiuVoltouQtd('${setor}','${ds}')||0)-1))" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(139,92,246,.4);background:var(--bg3);color:#7C3AED;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">−</button>
+            <button onclick="setSaiuVoltou('${setor}','${ds}',Math.max(0,(saiuVoltouQtd('${setor}','${ds}')||0)-1))" style="height:28px;padding:0 10px;border-radius:14px;border:1px solid rgba(139,92,246,.4);background:var(--bg3);color:#7C3AED;font-size:11px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;white-space:nowrap">↩ Retornou</button>
             <span id="saiu-${key}" style="font-size:20px;font-weight:700;font-family:var(--mono);color:#7C3AED;min-width:28px;text-align:center">${saiuVoltouQtd(setor,ds)}</span>
             <button onclick="setSaiuVoltou('${setor}','${ds}',(saiuVoltouQtd('${setor}','${ds}')||0)+1)" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(139,92,246,.4);background:var(--bg3);color:#7C3AED;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">+</button>
           </div>
@@ -1450,7 +1461,7 @@ function renderCards(ds){
             <span style="font-size:10px;color:var(--text3)">curso, evento, palestra — retorna depois</span>
           </div>
           <div style="display:flex;align-items:center;gap:6px">
-            <button onclick="setLiberado('${setor}','${ds}',Math.max(0,(liberadoQtd('${setor}','${ds}')||0)-1))" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(13,148,136,.4);background:var(--bg3);color:#0D9488;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">−</button>
+            <button onclick="setLiberado('${setor}','${ds}',Math.max(0,(liberadoQtd('${setor}','${ds}')||0)-1))" style="height:28px;padding:0 10px;border-radius:14px;border:1px solid rgba(13,148,136,.4);background:var(--bg3);color:#0D9488;font-size:11px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;white-space:nowrap">↩ Retornou</button>
             <span id="lib-${key}" style="font-size:20px;font-weight:700;font-family:var(--mono);color:#0D9488;min-width:28px;text-align:center">${liberadoQtd(setor,ds)}</span>
             <button onclick="setLiberado('${setor}','${ds}',(liberadoQtd('${setor}','${ds}')||0)+1)" style="width:28px;height:28px;border-radius:50%;border:1px solid rgba(13,148,136,.4);background:var(--bg3);color:#0D9488;font-size:16px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">+</button>
           </div>
@@ -1679,6 +1690,13 @@ function excluirCartaoPersonalizado(id){
 function setEnfVoltou(setor, ds, val){
   const v = Math.max(0, parseInt(val)||0);
   enfVoltou[setor+'||'+ds] = v;
+  _autoSave();
+  renderSetores();
+}
+function incrementarFoiEnfermaria(setor, ds){
+  enfVoltou[setor+'||'+ds] = (enfVoltouQtd(setor,ds)||0)+1;
+  enfTotalFoi[setor+'||'+ds] = (enfTotalFoiQtd(setor,ds)||0)+1;
+  localStorage.setItem('vw_enf_total_foi',JSON.stringify(enfTotalFoi));
   _autoSave();
   renderSetores();
 }
@@ -2440,6 +2458,28 @@ function renderComparativo(ds){
     </table>`;
 }
 
+function renderEnfermariaCard(ds){
+  const el=document.getElementById('enfermariaCard'); if(!el) return;
+  const foi=SETORES.reduce((a,s)=>a+enfTotalFoiQtd(s,ds),0);
+  const naoRetornou=SETORES.reduce((a,s)=>a+enfVoltouQtd(s,ds),0);
+  const retornou=SETORES.reduce((a,s)=>a+enfRetornouQtd(s,ds),0);
+  const porSetor=SETORES.map(s=>({s,foi:enfTotalFoiQtd(s,ds),ret:enfRetornouQtd(s,ds),naoRet:enfVoltouQtd(s,ds)})).filter(x=>x.foi>0);
+  el.innerHTML=`
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:${porSetor.length?'14px':'0'}">
+      <div class="kpi"><div class="kpi-label">Foi</div><div class="kpi-val c-blue">${foi}</div></div>
+      <div class="kpi"><div class="kpi-label">Retornou</div><div class="kpi-val c-ok">${retornou}</div></div>
+      <div class="kpi"><div class="kpi-label">Não retornou</div><div class="kpi-val ${naoRetornou>0?'c-danger':'c-ok'}">${naoRetornou}</div></div>
+    </div>
+    ${porSetor.length?porSetor.map(x=>`
+      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid var(--border);font-size:12px">
+        <span style="flex:1;font-weight:600">${x.s}</span>
+        <span style="color:var(--text3)">foi ${x.foi}</span>
+        <span style="color:#059669">retornou ${x.ret}</span>
+        <span style="color:${x.naoRet>0?'#DC2626':'var(--text3)'};font-weight:${x.naoRet>0?'700':'400'}">${x.naoRet>0?'ainda fora: '+x.naoRet:'todos de volta'}</span>
+      </div>`).join('') : `<div class="empty-msg">Nenhum registro de enfermaria hoje</div>`}
+  `;
+}
+
 function renderDashboard(){
   const ds=getDate();
   let tOp=0,tOps=0,tF=0,tB=0,tA=0,tFalt=0,tEnf=0,tOut=0;
@@ -2453,6 +2493,7 @@ function renderDashboard(){
   const cob=totalMonCob(), fora=totalMonFora();
   renderResumoExecutivo(ds, tOp, tAus, tAusReais, tres, cob);
   renderAnaliseESaude(ds, tOp, tAus, tres, cob);
+  renderEnfermariaCard(ds);
   renderTendencia30(ds);
   renderComparativo(ds);
   document.getElementById('dashSummary').innerHTML=`
@@ -2500,10 +2541,10 @@ function setRankTab(tab){
 
 function _ausRealDia(s, d){
   if(d === today()){
-    return ausA(s,d)+ausFalt(s,d)+ausEnf(s,d)+ausOut(s,d)+enfVoltouQtd(s,d)+atrasadoQtd(s,d)+liberadoQtd(s,d)+atestadoQtd(s,d)+customTotalQtd(s,d);
+    return ausA(s,d)+ausFalt(s,d)+ausEnf(s,d)+ausOut(s,d)+enfVoltouQtd(s,d)+atrasadoQtd(s,d)+liberadoQtd(s,d)+atestadoQtd(s,d)+customTotalQtd(s,d)+ausLic(s,d);
   }
   // Para dias passados, usa agenda global
-  return (agenda[s]||[]).filter(e=>['afastamento','falta','outros'].includes(e.tipo)&&e.inicio<=d&&e.fim>=d).length;
+  return (agenda[s]||[]).filter(e=>['afastamento','falta','outros',...LICENCA_TIPOS].includes(e.tipo)&&e.inicio<=d&&e.fim>=d).length;
 }
 
 function renderRanking(tab, ds){
@@ -2597,7 +2638,7 @@ function renderPrevisao(ds){
     let tF=0,tB=0,tA=0,tFalt=0,tEnf=0,tOut=0,tOp=0,tOps=0;
     SETORES.forEach(s=>{tOp+=quadros[s]?.operadores||0;tOps+=quadros[s]?.operacoes||0;tF+=ausF(s,day);tB+=ausB(s,day);tA+=ausA(s,day);tFalt+=ausFalt(s,day);tEnf+=ausEnf(s,day);tOut+=ausOut(s,day);});
     const tCob=monCobForDay(day); // only count monitors saved for that specific day
-    const tAus=tF+tB+tA+tFalt+tEnf+tOut+SETORES.reduce((a,s)=>a+enfVoltouQtd(s,day)+atrasadoQtd(s,day)+liberadoQtd(s,day)+atestadoQtd(s,day)+customTotalQtd(s,day),0); // inclui enf/atrd/liberação/atestado do dia
+    const tAus=tF+tB+tA+tFalt+tEnf+tOut+SETORES.reduce((a,s)=>a+enfVoltouQtd(s,day)+atrasadoQtd(s,day)+liberadoQtd(s,day)+atestadoQtd(s,day)+customTotalQtd(s,day)+ausLic(s,day),0); // inclui enf/atrd/liberação/atestado/licenças do dia
     const tEmpSaldo=SETORES.reduce((a,s)=>a+empSaldoSetor(s,day).saldo,0);
     const res=(tOp-tAus)-tOps+tCob+tEmpSaldo;
     const sabSt=isSab(day)?sabStatus(day):null;
@@ -2670,7 +2711,7 @@ function renderHistorico(ds){
     let tF=0,tB=0,tA=0,tFalt=0,tEnf=0,tOut=0;
     SETORES.forEach(s=>{tF+=ausF(s,day);tB+=ausB(s,day);tA+=ausA(s,day);tFalt+=ausFalt(s,day);tEnf+=ausEnf(s,day);tOut+=ausOut(s,day);});
     const tCob=monCobForDay(day);
-    const tAus=tF+tB+tA+tFalt+tEnf+tOut+SETORES.reduce((a,s)=>a+enfVoltouQtd(s,day)+atrasadoQtd(s,day)+liberadoQtd(s,day)+atestadoQtd(s,day)+customTotalQtd(s,day),0);
+    const tAus=tF+tB+tA+tFalt+tEnf+tOut+SETORES.reduce((a,s)=>a+enfVoltouQtd(s,day)+atrasadoQtd(s,day)+liberadoQtd(s,day)+atestadoQtd(s,day)+customTotalQtd(s,day)+ausLic(s,day),0);
     const tEmpSaldo=SETORES.reduce((a,s)=>a+empSaldoSetor(s,day).saldo,0);
     const res=(tOp-tAus)-tOps+tCob+tEmpSaldo;
     const sabSt=isSab(day)?sabStatus(day):null;
@@ -2751,7 +2792,8 @@ function compartilharWA(){
     }
   });
   const tres=SETORES.reduce((a,s)=>a+resultado(s,ds),0);
-  txt+=`\n*TOTAIS*\nOp:${tOp} | Ops:${tOps} | Aus:${tF+tB+tA+tFalt}\nMon.Cob.:${totalMonCob()} | Resultado:${tres>=0?'+':''}${tres}\n`;
+  const tAusCompleto=SETORES.reduce((a,s)=>a+totalAus(s,ds)+enfVoltouQtd(s,ds)+atrasadoQtd(s,ds)+saiuVoltouQtd(s,ds)+liberadoQtd(s,ds)+atestadoQtd(s,ds)+customTotalQtd(s,ds),0);
+  txt+=`\n*TOTAIS*\nOp:${tOp} | Ops:${tOps} | Aus:${tAusCompleto}\nMon.Cob.:${totalMonCob()} | Resultado:${tres>=0?'+':''}${tres}\n`;
   const empDia=emprestados[ds]||[];
   if(empDia.length>0){
     txt+=`\n*EMPRESTADOS*\n`;
@@ -2972,11 +3014,12 @@ function exportarPDF(){
     const day=addDays(ds,i); let tF2=0,tB2=0,tA2=0,tFalt2=0,tEnf2=0,tOut2=0,tOp2=0,tOps2=0;
     SETORES.forEach(s=>{tOp2+=quadros[s]?.operadores||0;tOps2+=quadros[s]?.operacoes||0;tF2+=ausF(s,day);tB2+=ausB(s,day);tA2+=ausA(s,day);tFalt2+=ausFalt(s,day);tEnf2+=ausEnf(s,day);tOut2+=ausOut(s,day);});
     const tCob2=monCobForDay(day);
-    const res2=(tOp2-tF2-tB2-tA2-tFalt2-tEnf2-tOut2)-tOps2+tCob2;
+    const tExtras2=SETORES.reduce((a,s)=>a+enfVoltouQtd(s,day)+atrasadoQtd(s,day)+liberadoQtd(s,day)+atestadoQtd(s,day)+customTotalQtd(s,day)+ausLic(s,day),0);
+    const res2=(tOp2-tF2-tB2-tA2-tFalt2-tEnf2-tOut2-tExtras2)-tOps2+tCob2;
     const rc2=res2>0?'#059669':res2<0?'#dc2626':'#6b7280';
     const sabSt2=isSab(day)?sabStatus(day):null;
     const sabL=sabSt2==='prod'?' 🏭':sabSt2==='nao'?' ⛔':'';
-    prevRows+=`<tr><td>${dowName(day)} ${fmtDate(day)}${sabL}</td><td>${tF2}</td><td>${tB2}</td><td>${tA2}</td><td>${tFalt2}</td><td>${tEnf2}</td><td>${tOut2}</td><td>${tCob2}</td><td>${tF2+tB2+tA2+tFalt2+tEnf2+tOut2}</td><td style="color:${rc2};font-weight:700">${res2>=0?'+':''}${res2}</td></tr>`;
+    prevRows+=`<tr><td>${dowName(day)} ${fmtDate(day)}${sabL}</td><td>${tF2}</td><td>${tB2}</td><td>${tA2}</td><td>${tFalt2}</td><td>${tEnf2}</td><td>${tOut2}</td><td>${tCob2}</td><td>${tF2+tB2+tA2+tFalt2+tEnf2+tOut2+tExtras2}</td><td style="color:${rc2};font-weight:700">${res2>=0?'+':''}${res2}</td></tr>`;
   }
   let monRows='';
   SETORES.forEach(s=>{const mons=monitores[s]||[];if(mons.length){monRows+=`<tr><td colspan="3" style="font-weight:700;background:#f3f4f6">${s}</td></tr>`;mons.forEach(mn=>{monRows+=`<tr><td style="padding-left:16px;color:#6b7280">${mn.nome}</td><td>${MON_STATUS[mn.status].label}</td><td style="font-style:italic;color:#9ca3af">${mn.obs||'—'}</td></tr>`;});}});
@@ -3387,6 +3430,7 @@ function _autoSave(){
   localStorage.setItem('vw_atestados',JSON.stringify(atestados));
   localStorage.setItem('vw_custom_cards',JSON.stringify(customCards));
   localStorage.setItem('vw_custom_counts',JSON.stringify(customCounts));
+  localStorage.setItem('vw_enf_total_foi',JSON.stringify(enfTotalFoi));
   localStorage.setItem('vw_obs_'+k,document.getElementById('obsGeral')?.value||'');
   if(typeof _dataAnterior!=='undefined') _dataAnterior=k;
 }
@@ -3410,6 +3454,7 @@ function salvar(){
   localStorage.setItem('vw_atestados',JSON.stringify(atestados));
   localStorage.setItem('vw_custom_cards',JSON.stringify(customCards));
   localStorage.setItem('vw_custom_counts',JSON.stringify(customCounts));
+  localStorage.setItem('vw_enf_total_foi',JSON.stringify(enfTotalFoi));
   localStorage.setItem('vw_emp',JSON.stringify(emprestados));
   localStorage.setItem('vw_obs_'+k,document.getElementById('obsGeral').value||'');
   if(typeof _dataAnterior!=='undefined') _dataAnterior=k;
@@ -3481,6 +3526,10 @@ function carregar(k){
     if(ccRaw) try{ customCards=JSON.parse(ccRaw); }catch(e){ customCards=[]; } else customCards=[];
     const ccnRaw=localStorage.getItem('vw_custom_counts');
     if(ccnRaw) try{ customCounts=JSON.parse(ccnRaw); }catch(e){ customCounts={}; } else customCounts={};
+
+    // Load enfTotalFoi
+    const etfRaw=localStorage.getItem('vw_enf_total_foi');
+    if(etfRaw) try{ enfTotalFoi=JSON.parse(etfRaw); }catch(e){ enfTotalFoi={}; } else enfTotalFoi={};
 
     // Reset daily statuses
     SETORES.forEach(s=>{ monitores[s]=[]; });
@@ -3624,7 +3673,7 @@ function importarDados(input){
       const keysToRemove=[];
       for(let i=0;i<localStorage.length;i++){
         const k=localStorage.key(i);
-        if(k && (k.startsWith('vw_q_')||k.startsWith('vw_a_')||k.startsWith('vw_m_')||k.startsWith('vw_obs_')||k==='vw_sab'||k==='vw_setores'||k==='vw_mon_base'||k==='vw_emp'||k==='vw_agenda_global'||k==='vw_lideres'||k==='vw_enf_voltou'||k==='vw_atrasados'||k==='vw_saiu_voltou'||k==='vw_liberados'||k==='vw_atestados'||k==='vw_custom_cards'||k==='vw_custom_counts'||k==='vw_papeis_smartflow'||k==='vw_meta_turno'||k==='vw_ultimo_backup')){
+        if(k && (k.startsWith('vw_q_')||k.startsWith('vw_a_')||k.startsWith('vw_m_')||k.startsWith('vw_obs_')||k==='vw_sab'||k==='vw_setores'||k==='vw_mon_base'||k==='vw_emp'||k==='vw_agenda_global'||k==='vw_lideres'||k==='vw_enf_voltou'||k==='vw_atrasados'||k==='vw_saiu_voltou'||k==='vw_liberados'||k==='vw_atestados'||k==='vw_custom_cards'||k==='vw_custom_counts'||k==='vw_enf_total_foi'||k==='vw_papeis_smartflow'||k==='vw_meta_turno'||k==='vw_ultimo_backup')){
           keysToRemove.push(k);
         }
       }
@@ -3681,6 +3730,39 @@ dataInput.addEventListener('change',function(){
   _dataAnterior=this.value;
   carregar(this.value); initTL(); renderTimeline();
 });
+
+/* ---- Virada de dia automática ----
+   Se o navegador ficar aberto passando da meia-noite, a data
+   escolhida não avança sozinha. Checa a cada minuto e, se o
+   usuário estava vendo "hoje", avança pra data nova (o que já
+   zera os cartões/contadores, já que são por data). Se ele tinha
+   navegado pra outro dia de propósito, não mexe. */
+let _hojeConhecido = dataInput.value;
+setInterval(()=>{
+  const hojeReal = today();
+  if(hojeReal !== _hojeConhecido){
+    if(dataInput.value === _hojeConhecido){
+      dataInput.value = hojeReal;
+      dataInput.dispatchEvent(new Event('change'));
+      _avisoNovoDia(hojeReal);
+    }
+    _hojeConhecido = hojeReal;
+  }
+}, 60000);
+function _avisoNovoDia(novaData){
+  const [yy,mm,dd]=novaData.split('-');
+  let el=document.getElementById('avisoNovoDiaPill');
+  if(!el){
+    el=document.createElement('div');
+    el.id='avisoNovoDiaPill';
+    el.style.cssText='position:fixed;top:14px;left:50%;transform:translateX(-50%);background:#111827;color:#fff;font-size:12px;font-weight:600;padding:8px 16px;border-radius:20px;z-index:99999;box-shadow:0 4px 14px rgba(0,0,0,.25)';
+    document.body.appendChild(el);
+  }
+  el.textContent=`📅 Novo dia — ${dd}/${mm}/${yy}`;
+  el.style.display='block';
+  setTimeout(()=>{ el.style.display='none'; }, 5000);
+}
+
 carregarSetores();
 carregarEmp();
 // Migrate per-date agenda to global if needed
@@ -4188,12 +4270,14 @@ function _coletarContextoIA() {
     const falt = ausFalt(s, ds), enf = ausEnf(s, ds), out = ausOut(s, ds);
     const lib = liberadoQtd(s, ds);
     const atst = atestadoQtd(s, ds);
-    const totalA = f + b + a + falt + enf + out + lib + atst;
+    const atrd = atrasadoQtd(s, ds), saiu = saiuVoltouQtd(s, ds), custom = customTotalQtd(s, ds);
+    const lic = ausLic(s, ds);
+    const totalA = f + b + a + falt + enf + out + lib + atst + atrd + saiu + custom + lic;
     const cob = monCob(s), fora = monFora(s);
     const res = resultado(s, ds);
     const emp = empSaldoSetor(s, ds);
     return { setor: s, operadores: op, operacoes: ops,
-      ausencias: { ferias: f, bancoHoras: b, afastamento: a, falta: falt, enfermaria: enf, outros: out, liberacaoProgramada: lib, atestado: atst, total: totalA },
+      ausencias: { ferias: f, bancoHoras: b, afastamento: a, falta: falt, enfermaria: enf, outros: out, liberacaoProgramada: lib, atestado: atst, atrasado: atrd, saiuVoltara: saiu, licencas: lic, cartoesPersonalizados: custom, total: totalA },
       monitores: { cobrindo: cob, fora: fora },
       emprestados: { enviou: emp.enviou, recebeu: emp.recebeu, saldo: emp.saldo },
       resultado: res };
@@ -4243,6 +4327,10 @@ function _gerarTextoIA(ctx, perguntaExtra) {
     if (aus.enfermaria) partes.push(`enf:${aus.enfermaria}`);
     if (aus.liberacaoProgramada) partes.push(`liberação:${aus.liberacaoProgramada}`);
     if (aus.atestado) partes.push(`atestado:${aus.atestado}`);
+    if (aus.atrasado) partes.push(`atrasado:${aus.atrasado}`);
+    if (aus.saiuVoltara) partes.push(`saiu/voltará:${aus.saiuVoltara}`);
+    if (aus.licencas) partes.push(`licenças:${aus.licencas}`);
+    if (aus.cartoesPersonalizados) partes.push(`outros cartões:${aus.cartoesPersonalizados}`);
     if (s.monitores.cobrindo) partes.push(`mon.cob:${s.monitores.cobrindo}`);
     if (s.emprestados.enviou) partes.push(`enviou:${s.emprestados.enviou}`);
     if (s.emprestados.recebeu) partes.push(`recebeu:${s.emprestados.recebeu}`);
@@ -4372,6 +4460,7 @@ const _syncRef = _db.ref('smartflow/dados');
 
 let _applyingRemote = false;
 const _pushTimers = {};
+const _chavesPendentes = new Set(); // chaves com edição local ainda não enviada pro Firebase
 
 // Intercepta TODO localStorage.setItem: qualquer chave "vw_*" é
 // automaticamente espelhada no Firebase (com pequeno atraso pra
@@ -4381,14 +4470,16 @@ localStorage.setItem = function(key, value){
   _origSetItem(key, value);
   if(_applyingRemote) return; // evita eco: dado que já veio do Firebase não volta pra ele
   if(!key.startsWith('vw_')) return; // 'sf_papel' (identidade local do aparelho) fica de fora
+  _chavesPendentes.add(key);
   clearTimeout(_pushTimers[key]);
   _pushTimers[key] = setTimeout(()=>{
     _syncRef.child(key).set(value);
+    _chavesPendentes.delete(key);
     _db.ref('smartflow/meta/ultimaEdicao').set({
       por: localStorage.getItem('sf_papel')||'desconhecido',
       quando: new Date().toISOString()
     });
-  }, 700);
+  }, 500);
 };
 
 // Aplica dados que chegaram de outro aparelho e redesenha a tela
@@ -4396,6 +4487,7 @@ function _aplicarDadosRemotos(dados){
   _applyingRemote = true;
   try{
     Object.keys(dados||{}).forEach(k=>{
+      if(_chavesPendentes.has(k)) return; // edição local dessa chave ainda não foi enviada — não deixa o remoto sobrescrever e apagar
       const v = dados[k];
       if(typeof v === 'string') _origSetItem(k, v);
     });
@@ -4498,7 +4590,8 @@ function _renderPainelPresenca(dados){
       <span style="flex:1">${papel.replace(' (Monitor)','').replace(' (Líder)','').replace(' (Supervisor(a))','').replace(' (Gerente)','')}</span>
       <span style="color:#9CA3AF;font-size:10px">${status}</span>
     </div>`;
-  }).join('') + `<div style="border-top:1px solid rgba(255,255,255,.15);margin-top:2px;padding-top:5px;text-align:right">
+  }).join('') + `<div style="border-top:1px solid rgba(255,255,255,.15);margin-top:2px;padding-top:5px;display:flex;justify-content:space-between;gap:8px">
+      <button onclick="_atualizarManualmente()" style="background:none;border:none;color:#9CA3AF;font-size:10px;cursor:pointer;padding:0">🔄 atualizar agora</button>
       <button onclick="_gerenciarPessoas()" style="background:none;border:none;color:#9CA3AF;font-size:10px;cursor:pointer;padding:0">⚙ gerenciar pessoas</button>
     </div>`;
 }
@@ -4566,10 +4659,31 @@ function _mostrarStatusConexao(texto){
   if(!el){
     el = document.createElement('div');
     el.id = 'syncStatusPill';
-    el.style.cssText = 'position:fixed;bottom:10px;right:10px;background:#111827;color:#fff;font-size:11px;padding:5px 10px;border-radius:20px;z-index:9999;opacity:.85;box-shadow:0 2px 8px rgba(0,0,0,.2)';
+    el.style.cssText = 'position:fixed;bottom:10px;right:10px;background:#111827;color:#fff;font-size:11px;padding:5px 10px;border-radius:20px;z-index:9999;opacity:.85;box-shadow:0 2px 8px rgba(0,0,0,.2);cursor:pointer';
+    el.title='Clique para forçar uma atualização agora';
+    el.onclick=()=>_atualizarManualmente();
     document.body.appendChild(el);
   }
   el.textContent = texto;
+}
+
+let _statusAntesAtualizar=null;
+async function _atualizarManualmente(){
+  _statusAntesAtualizar = document.getElementById('syncStatusPill')?.textContent || null;
+  _mostrarStatusConexao('🔄 Atualizando...');
+  try{
+    const snap = await _syncRef.once('value');
+    const dados = snap.val();
+    if(dados) _aplicarDadosRemotos(dados);
+    _mostrarStatusConexao('✅ Atualizado agora');
+  }catch(e){
+    _mostrarStatusConexao('⚠️ Falha ao atualizar — verifique a internet');
+  }
+  setTimeout(()=>{
+    _db.ref('.info/connected').once('value').then(s=>{
+      _mostrarStatusConexao(s.val()===true ? '🟢 Online — sincronizando' : '🔴 Sem conexão (offline)');
+    });
+  }, 2000);
 }
 
 /* ---- Identificação de papel: "Quem é você?" (uma vez por aparelho) ---- */
